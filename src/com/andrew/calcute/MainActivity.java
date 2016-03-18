@@ -236,6 +236,7 @@ public class MainActivity extends Activity {
 		List<View>  inputList =  getViewsByTag(vg,"input");
 		List<View>  functionList =  getViewsByTag(vg,"function");
 
+
 		for(View button: inputList){
 			button.setOnClickListener(new ClickInput());
 		}
